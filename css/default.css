@@ -125,6 +125,7 @@ a:hover{
 
 #gnavi{
 	float:left;
+	margin:5px 0 0 10px;
 }
 
 #gnavi li{
@@ -194,10 +195,13 @@ a:hover{
 /* sns */
 
 .fb-like{
-	width:100px;
-	height:30px;
-	background-color:#f00;
+	margin:5px 10px 0 0;
 }
+/*
+.fb_edge_widget_with_comment span.fb_edge_comment_widget {
+	display: none !important;
+}
+*/
 
 #twitter_timeline{
 	margin:40px auto 100px auto;
