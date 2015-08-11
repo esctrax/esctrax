@@ -202,6 +202,11 @@ a:hover{
 	display: none !important;
 }
 */
+.fb_iframe_widget {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
 
 #twitter_timeline{
 	margin:40px auto 100px auto;
