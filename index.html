@@ -22,13 +22,35 @@
 </script>
 </head>
 <body>
+<script type="text/javascript" src="js/facebook_sdk.js"></script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <div id="wrapper">
-		<div id="container">
-				<div id="logo"><img src="img/logo_esc.png" alt="ESC TRAX" width="220" height="280" /></div>
-				<a href="https://esctrax.bandcamp.com/">
-				<div class="btn_link">▶BANDCAMP</div>
-				</a> </div>
-		<div id="footer">esc trax</div>
+	<div id="header">
+		<ul id="gnavi">
+			<li><a href="https://esctrax.bandcamp.com/releases">▶Release</a></li>
+		</ul>
+		<ul id="sns">
+			<li>
+				<div class="fb-like" data-layout="button"></div>
+			</li>
+		</ul>
+	</div>
+	<div id="container">
+		<div id="logo"><img src="img/logo_esc.png" alt="ESC TRAX" width="220" height="280" /></div>
+		<a href="https://esctrax.bandcamp.com/">
+		<div class="btn_link">▶BANDCAMP</div>
+		</a> </div>
+	<div id="twitter_timeline"> <a class="twitter-timeline" href="https://twitter.com/esctrax" data-widget-id="630584877465743360" data-chrome="nofooter noborders noscrollbar transparent" >@esctrax</a> 
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> 
+	</div>
+	<div id="footer">2015 esc trax</div>
 </div>
 </body>
 </html>
