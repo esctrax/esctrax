@@ -130,6 +130,7 @@ a:hover{
 
 #gnavi li{
 	float:left;
+	margin-right:10px;
 }
 
 #gnavi a{
@@ -156,6 +157,7 @@ a:hover{
 	text-align: center;
 	font-size: 1.2rem;
 	color:#001c3d;
+	background-color:#eeeeee;
 }
 
 
@@ -165,7 +167,7 @@ a:hover{
 
 .btn_link {
 	text-align:center;
-	margin:auto;
+	margin:0 auto;
 	width:220px
 	height:80px;
 	color:#001c3d;
@@ -210,6 +212,6 @@ a:hover{
 
 #twitter_timeline{
 	margin:40px auto 100px auto;
-	width:220px;
-	height:400px;
+	width:350px;
+	height:600px;
 }
