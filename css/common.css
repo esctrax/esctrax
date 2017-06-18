@@ -1,0 +1,14 @@
+/* ------------ navbar ---------------*/
+
+.navbar{
+	min-height: 20px;
+}
+.navbar-brand{
+	height: 20px;
+	padding:1px;
+}
+
+.navbar-nav > li > a{
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
