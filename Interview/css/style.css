@@ -1,0 +1,42 @@
+body{
+	background-image: url(../images/ureyu/img_main.jpg);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+}
+
+
+h1{
+	padding-top:30px;
+	color:#fff;
+	text-shadow: 1px 1px 3px #000;
+}
+
+
+h3{
+	background: #001c3d;
+	color: #ffffff;
+}
+
+#main{
+	margin-top:500px;
+}
+
+.main{
+	background: #ffffff;
+}
+
+.navbar{
+	min-height: 20px;
+}
+.navbar-brand{
+	height: 20px;
+	padding:1px;
+}
+
+.navbar-nav > li > a{
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
