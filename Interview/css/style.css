@@ -18,6 +18,8 @@ h1{
 h3{
 	background: #001c3d;
 	color: #ffffff;
+	padding: 20px 15px;
+	margin: 0;
 }
 
 #main{
@@ -26,4 +28,18 @@ h3{
 
 .main{
 	background: #ffffff;
+}
+
+.img-responsive-center{
+    margin: 0 auto;
+}
+
+.incimg{
+	padding: 0;
+}
+
+.question{
+	color: #001c3d;
+	font-weight: bold;
+	font-size: 120%;
 }
