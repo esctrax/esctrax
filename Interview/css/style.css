@@ -4,27 +4,48 @@ body{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	
 }
 
 
 h1{
-	padding-top:30px;
 	color:#fff;
 	text-shadow: 1px 1px 3px #000;
+	font-size: 400%;
+	padding: 0;
 }
 
+h1 span{
+	font-size: 80%;
+}
 
 h3{
 	background: #001c3d;
 	color: #ffffff;
-	padding: 20px 15px;
+	padding: 1.5em 15px;
 	margin: 0;
+	font-size:200%;
+	line-height: 1.5em;
 }
 
-#main{
+section#title{
+	color: #fff;
+}
+
+nav#breadcrumbs ol li{
+	display: inline;
+	list-style-type: none;
+}
+nav#breadcrumbs ol li:before{
+	content:" > ";
+}
+nav#breadcrumbs ol li:first-child:before{
+	content:"";
+}
+
+section#main{
 	margin-top:400px;
 }
+
 
 .main{
 	background: #ffffff;
@@ -38,8 +59,21 @@ h3{
 	padding: 0;
 }
 
-.question{
+#main dl{
+	letter-spacing: 0.05em;
+	padding-right:15px;
+	padding-left:15px;
+}
+#main dl dt{
 	color: #001c3d;
 	font-weight: bold;
+	font-size: 140%;
+	padding-top: 60px;
+	line-height: 2em;
+}
+
+#main dl dd{
+	padding-top: 40px;
+	line-height: 2em;
 	font-size: 120%;
 }

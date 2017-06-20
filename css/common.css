@@ -13,6 +13,13 @@
 	padding-bottom: 1px;
 }
 
+/* ------------ footer ---------------*/
+footer{
+	background: #eee;
+	text-align: center;
+	font-size: 10px;
+	padding: 2px;
+}
 
 /* margin padding調整css */
 .mt0{margin-top:0;}
@@ -22,6 +29,7 @@
 .mt30{margin-top:30px;}
 .mt40{margin-top:40px;}
 .mt50{margin-top:50px;}
+.mt60{margin-top:60px;}
 
 .mb0{margin-bottom:0;}
 .mb5{margin-bottom:5px;}
@@ -30,6 +38,7 @@
 .mb30{margin-bottom:30px;}
 .mb40{margin-bottom:40px;}
 .mb50{margin-bottom:50px;}
+.mb60{margin-bottom:60px;}
 
 .pt0{padding-top:0;}
 .pt5{padding-top:5px;}
