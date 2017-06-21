@@ -29,8 +29,13 @@ h3{
 
 section#title{
 	color: #fff;
+	margin-top:2%;
 }
 
+nav#breadcrumbs ol{
+	margin-top:10px;
+	padding-left: 0;
+}
 nav#breadcrumbs ol li{
 	display: inline;
 	list-style-type: none;
@@ -43,7 +48,7 @@ nav#breadcrumbs ol li:first-child:before{
 }
 
 section#main{
-	margin-top:400px;
+	margin-top:45%;
 }
 
 
@@ -58,6 +63,17 @@ section#main{
 .incimg{
 	padding: 0;
 }
+
+.discograhy li{
+	display: inline-block;
+	list-style: none;
+	width:10%;
+	vertical-align: top;
+	text-align: center;
+	text-overflow:hidden;
+	white-space: nowrap;
+}
+
 
 #main dl{
 	letter-spacing: 0.05em;
