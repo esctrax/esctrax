@@ -1,8 +1,21 @@
+/* setting */
+
+/*defoult color #001c3d*
+
 /* add */
 
 .fb-like{
 	margin:0;
 	float: right;
+}
+
+a{
+	color: #0687F5;
+	font-weight: bold;
+}
+
+.shadow{
+	 filter: drop-shadow(2px 2px 2px #000);
 }
 
 
