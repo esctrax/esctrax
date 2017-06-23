@@ -93,7 +93,7 @@ section#main {
 	width: auto;
 	z-index: 100000;
 }
-.credit {
+#credit {
 	text-align: center;
 	padding: 1em;
 	font-size: 80%;
