@@ -1,10 +1,14 @@
 body {
-	background-image: url(../images/ureyu/img_main.jpg);
 	background-position: right bottom;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 }
+
+body.ureyu{
+	background-image: url(../images/ureyu/img_main.jpg);
+}
+
 h1 {
 	color: #fff;
 	text-shadow: 2px 2px 4px #000;
@@ -83,11 +87,18 @@ h4{
 #discography {
 	padding-top: 2%;
 	padding-bottom: 2%;
+	text-align: center;
 }
 #discography h4 {
 	padding-bottom: 2%;
 }
-.discography li {
+
+#discography ul{
+	margin: 0;
+	padding: 0;
+}
+
+#discography li {
 	display: inline-block;
 	list-style: none;
 	width: 10%;
@@ -97,10 +108,10 @@ h4{
 	white-space: nowrap;
 	position: relative;
 }
-.discography li span {
+#discography li span {
 	display: none;
 }
-.discography li a:hover span {
+#discography li a:hover span {
 	background: none 0 0 #fff;
 	border: 0px solid #CCCCCC;
 	color: #000000;
@@ -137,13 +148,4 @@ h4{
 	padding-top: 40px;
 	line-height: 2em;
 	font-size: 120%;
-}
-
-
-/* -------------- add class ------------*/
-.img-responsive-center {
-	margin: 0 auto;
-}
-.incimg {
-	padding: 0;
 }

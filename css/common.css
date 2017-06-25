@@ -2,12 +2,7 @@
 
 /*defoult color #001c3d*
 
-/* add */
-
-.fb-like{
-	margin:0;
-	float: right;
-}
+/* -------------- add class ------------*/
 
 a{
 	color: #0687F5;
@@ -18,22 +13,50 @@ a{
 	 filter: drop-shadow(2px 2px 2px #000);
 }
 
+.shadow2{
+	 filter: drop-shadow(2px 2px 4px #999);
+}
+
+.img-responsive-center {
+	margin: 0 auto;
+}
+.incimg {
+	padding: 0;
+}
+
+
+ul{
+	list-style: none;
+}
+
 
 /* ------------ navbar ---------------*/
 
 .navbar{
 	min-height: 20px;
-	padding-top:10px;
+	padding-top:0px;
 	padding-bottom: 0px;
+}
+.navbar ul li{
+	margin: 0;
+	padding: 0;
 }
 .navbar-brand{
 	height: 20px;
-	padding:0;
+	padding:2px 0 0 0;
+}
+.navbar-nav > li > a{
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
-.navbar-nav > li > a{
-	padding-top: 1px;
-	padding-bottom: 1px;
+nav.sns{
+	
+}
+.fb-like{
+	margin:0;
+	padding:0;
+	float: right;
 }
 
 /* ------------ footer ---------------*/
@@ -44,7 +67,7 @@ footer{
 	padding: 2px;
 }
 
-/* margin padding調整css */
+/* ----------margin padding調整css------------ */
 .mt0{margin-top:0;}
 .mt5{margin-top:5px;}
 .mt10{margin-top:10px;}
@@ -53,6 +76,8 @@ footer{
 .mt40{margin-top:40px;}
 .mt50{margin-top:50px;}
 .mt60{margin-top:60px;}
+.mt70{margin-top:70px;}
+.mt80{margin-top:80px;}
 
 .mb0{margin-bottom:0;}
 .mb5{margin-bottom:5px;}
