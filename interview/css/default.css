@@ -7,12 +7,12 @@ body{
 	margin:200px 0 200px 0;
 }
 
-ul{
+#interviewlist ul{
 	margin: 0;
 	padding: 0;
 	margin-top:40px;
 }
-ul li{
+#interviewlist ul li{
 	list-style: none;
 	text-align: left;
 	

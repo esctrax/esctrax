@@ -27,6 +27,8 @@ a{
 
 ul{
 	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 
@@ -51,13 +53,40 @@ ul{
 }
 
 nav.sns{
-	
+	margin: 0;
+	padding: 0;
 }
 .fb-like{
 	margin:0;
-	padding:0;
+	padding:0 0 0 0;
 	float: right;
 }
+
+@media screen and (max-width:768px) {
+	.navbar ul li{
+		margin: 0;
+		padding: 1em;
+	}
+
+	.navbar-brand{
+		height: 40px;
+		padding:15px 0 0 20px;
+	}
+	
+	
+	nav.sns{
+		margin: 0;
+		padding: 0;
+	}
+	.fb-like{
+		margin:0;
+		padding:0 0 20px 0;
+		float:left;
+	}
+	
+}
+
+
 
 /* ------------ footer ---------------*/
 footer{
@@ -66,6 +95,34 @@ footer{
 	font-size: 10px;
 	padding: 2px;
 }
+
+/* ------------ page top btn ---------------*/
+#pageTop {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+}
+ 
+#pageTop a {
+  display: block;
+  z-index: 999;
+  padding: 6px 8px 8px 8px;
+  border-radius: 30px;
+  width: 34px;
+  height: 34px;
+  background-color: #001c3d;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+ 
+#pageTop a:hover {
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+
 
 /* ----------margin padding調整css------------ */
 .mt0{margin-top:0;}

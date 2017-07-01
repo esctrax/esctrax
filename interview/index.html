@@ -7,7 +7,7 @@
 <title>インタビュー一覧｜ESC TRAX</title>
 <!-- Bootstrap -->
 <link rel="stylesheet" href="../css/bootstrap.css">
-<link rel="stylesheet" href="../css/common.css">
+<link href="../css/common.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="css/default.css">
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -32,13 +32,15 @@
 <nav class="navbar navbar-fixed-top navbar-default">
   <div class="container"> 
     <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header"> <a class="navbar-brand" href="/"><img src="../images/logo_esctxt.svg"></a> </div>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myDefaultNavbar1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand" href="/"><img src="../images/logo_esctxt.svg"></a> </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="myDefaultNavbar1">
       <ul class="nav navbar-nav">
         <li><a href="https://esctrax.bandcamp.com/releases">▶Release</a></li>
         <li><a href="http://blog.esctrax.com">▶Blog</a></li>
-        <li class="active"><a href="interview/">▶Interview<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">▶Interview</a></li>
       </ul>
       <ul class="sns">
         <li>
@@ -52,17 +54,19 @@
 </nav>
 <section>
   <div class="container-fluid text-center">
-       <div id="interviewlist">
-        <h1>インタビュー</h1>
-        <ul>
-          <li><a href="ureyu.html"><img src="images/bnr01.jpg" width="100%">Vol.1 - ureyu</a></li>
-        </ul></div>
+    <div id="interviewlist">
+      <h1>インタビュー</h1>
+      <ul>
+        <li><a href="ureyu.html"><img src="images/bnr01.jpg" width="100%">Vol.1 - ureyu</a></li>
+      </ul>
+    </div>
   </div>
 </section>
 <footer class="container-fluid"> <small>2015 ESC TRAX</small> </footer>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="../js/jquery-1.11.3.min.js"></script> 
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
-<script src="../js/bootstrap.js"></script>
+<script src="../js/bootstrap.js"></script> 
+<script src="https://use.fontawesome.com/31697bc1c3.js"></script>
 </body>
 </html>
