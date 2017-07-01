@@ -1,6 +1,17 @@
 body.ureyu{
 	background: url(http://esctrax.com/interview/images/ureyu/img_main.jpg) right bottom/cover no-repeat fixed;
 }
+@media screen and (max-width:768px) {
+	body.ureyu{
+		background: url(http://esctrax.com/interview/images/ureyu/img_main.jpg);
+		background-position:0 0;
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-size: contain;
+		background-color: #001c3d;
+	}
+}
+
 
 h1 {
 	color: #fff;
@@ -11,6 +22,19 @@ h1 {
 }
 h1 span {
 	font-size: 80%;
+}
+
+@media screen and (max-width:768px) {
+	h1 {
+		color: #fff;
+		text-shadow: 2px 2px 4px #000;
+		font-size: 200%;
+		font-weight: bold;
+		padding: 0;
+	}
+	h1 span {
+		font-size: 80%;
+	}
 }
 
 h2{
@@ -37,11 +61,17 @@ h4{
 	color: #fff;
 	margin-top: 2%;
 }
+#main {
+	margin-top: 45%;
+}
 
 @media screen and (max-width:768px) {
 	#pagetitle {
 		color: #fff;
-		margin-top: 10%;
+		margin-top: 5%;
+	}
+	#main {
+		margin-top: 0;
 	}
 }
 
@@ -66,9 +96,7 @@ h4{
 		font-weight: normal;
 	}
 
-#main {
-	margin-top: 45%;
-}
+
 #article {
 	background: #ffffff;
 }
