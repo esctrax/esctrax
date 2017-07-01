@@ -87,6 +87,10 @@ nav.sns{
 }
 
 
+.btn-default{
+	background-color: #001c3d;
+	color:#eee;
+}
 
 /* ------------ footer ---------------*/
 footer{
