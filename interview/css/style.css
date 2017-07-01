@@ -1,15 +1,6 @@
 body.ureyu{
-	background-image: url(http://esctrax.com/interview/images/ureyu/img_main.jpg);
+	background: url(http://esctrax.com/interview/images/ureyu/img_main.jpg) right bottom/cover no-repeat fixed;
 }
-
-
-body {
-	background-position: right bottom;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-}
-
 
 h1 {
 	color: #fff;
