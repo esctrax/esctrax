@@ -1,0 +1,161 @@
+body {
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+body.ureyu{
+	background-image: url(../images/ureyu/img_main.jpg);
+}
+
+h1 {
+	color: #fff;
+	text-shadow: 2px 2px 4px #000;
+	font-size: 400%;
+	font-weight: bold;
+	padding: 0;
+}
+h1 span {
+	font-size: 80%;
+}
+
+h2{
+	font-weight: bold;
+	font-size: 250%;
+	line-height: 1.5em;
+}
+
+h3 {
+	background: #001c3d;
+	color: #ffffff;
+	padding: 1.5em 30px;
+	margin: 0;
+	font-size: 200%;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+h4{
+	text-align: center;
+}
+
+#pagetitle {
+	color: #fff;
+	margin-top: 2%;
+}
+
+@media screen and (max-width:768px) {
+	#pagetitle {
+		color: #fff;
+		margin-top: 10%;
+	}
+}
+
+
+	nav#breadcrumbs ol {
+		margin-top: 10px;
+		padding-left: 0;
+	}
+	nav#breadcrumbs ol li {
+		display: inline;
+		list-style-type: none;
+		text-shadow: 2px 2px 4px #000;
+	}
+	nav#breadcrumbs ol li:before {
+		content: " > ";
+	}
+	nav#breadcrumbs ol li:first-child:before {
+		content: "";
+	}
+	nav#breadcrumbs a {
+		color: #fff;
+		font-weight: normal;
+	}
+
+#main {
+	margin-top: 45%;
+}
+#article {
+	background: #ffffff;
+}
+
+#intro{
+	padding:2em 15px 0 15px;;
+}
+
+#intro p{
+	padding-top:1em;
+	padding-bottom:2em;
+	line-height: 1.5em;
+	font-size:150%;
+}
+
+
+/* ------------- discograhy ----------------*/
+#discography {
+	padding-top: 2%;
+	padding-bottom: 2%;
+	text-align: center;
+}
+#discography h4 {
+	padding-bottom: 2%;
+}
+
+#discography ul{
+	margin: 0;
+	padding: 0;
+}
+
+#discography li {
+	display: inline-block;
+	list-style: none;
+	width: 10%;
+	vertical-align: top;
+	text-align: center;
+	text-overflow: hidden;
+	white-space: nowrap;
+	position: relative;
+}
+#discography li span {
+	display: none;
+}
+#discography li a:hover span {
+	background: none 0 0 #fff;
+	border: 0px solid #CCCCCC;
+	color: #000000;
+	display: block;
+	line-height: 1.2em;
+	margin: 0.5em;
+	padding: 0.5em;
+	position: absolute;
+	top: -2em;
+	left: -50%;
+	width: auto;
+	z-index: 100000;
+}
+#credit {
+	text-align: center;
+	padding: 1em;
+	font-size: 80%;
+}
+/* ------------- main----------------*/
+
+#main dl {
+	letter-spacing: 0.05em;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+#main dl dt {
+	color: #001c3d;
+	font-weight: bold;
+	font-size: 140%;
+	padding-top: 60px;
+	line-height: 2em;
+	font-style: italic;
+}
+#main dl dd {
+	padding-top: 40px;
+	line-height: 2em;
+	font-size: 120%;
+}

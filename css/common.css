@@ -1,0 +1,215 @@
+/* setting */
+
+/*defoult color #001c3d*
+
+/* -------------- add class ------------*/
+
+a{
+	color: #0687F5;
+	font-weight: bold;
+}
+
+.shadow{
+	 filter: drop-shadow(2px 2px 2px #000);
+}
+
+.shadow2{
+	 filter: drop-shadow(2px 2px 4px #999);
+}
+
+.img-responsive-center {
+	margin: 0 auto;
+}
+.incimg {
+	padding: 0;
+}
+
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+/* ------------ navbar ---------------*/
+
+.navbar{
+	min-height: 20px;
+	padding-top:0px;
+	padding-bottom: 0px;
+}
+.navbar ul li{
+	margin: 0;
+	padding: 0;
+}
+.navbar-brand{
+	height: 20px;
+	padding:2px 0 0 0;
+}
+.navbar-nav > li > a{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+nav.sns{
+	margin: 0;
+	padding: 0;
+}
+.fb-like{
+	margin:0;
+	padding:0 0 0 0;
+	float: right;
+}
+
+@media screen and (max-width:768px) {
+	.navbar ul li{
+		margin: 0;
+		padding: 1em;
+	}
+
+	.navbar-brand{
+		height: 40px;
+		padding:15px 0 0 20px;
+	}
+	
+	
+	nav.sns{
+		margin: 0;
+		padding: 0;
+	}
+	.fb-like{
+		margin:0;
+		padding:0 0 20px 0;
+		float:left;
+	}
+	
+}
+
+
+.btn-default{
+	background-color: #001c3d;
+	color:#eee;
+}
+
+/* ------------ footer ---------------*/
+footer{
+	background: #eee;
+	text-align: center;
+	font-size: 10px;
+	padding: 2px;
+}
+
+/* ------------ page top btn ---------------*/
+#pageTop {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+}
+ 
+#pageTop a {
+  display: block;
+  z-index: 999;
+  padding: 6px 8px 8px 8px;
+  border-radius: 30px;
+  width: 34px;
+  height: 34px;
+  background-color: #001c3d;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+ 
+#pageTop a:hover {
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+
+
+/* ----------margin padding調整css------------ */
+.mt0{margin-top:0;}
+.mt5{margin-top:5px;}
+.mt10{margin-top:10px;}
+.mt20{margin-top:20px;}
+.mt30{margin-top:30px;}
+.mt40{margin-top:40px;}
+.mt50{margin-top:50px;}
+.mt60{margin-top:60px;}
+.mt70{margin-top:70px;}
+.mt80{margin-top:80px;}
+
+.mb0{margin-bottom:0;}
+.mb5{margin-bottom:5px;}
+.mb10{margin-bottom:10px;}
+.mb20{margin-bottom:20px;}
+.mb30{margin-bottom:30px;}
+.mb40{margin-bottom:40px;}
+.mb50{margin-bottom:50px;}
+.mb60{margin-bottom:60px;}
+
+.mr0{margin-right:0;}
+.mr5{margin-right:5px;}
+.mr10{margin-right:10px;}
+.mr20{margin-right:20px;}
+.mr30{margin-right:30px;}
+.mr40{margin-right:40px;}
+.mr50{margin-right:50px;}
+.mr60{margin-right:60px;}
+
+.ml0{margin-left:0;}
+.ml5{margin-left:5px;}
+.ml10{margin-left:10px;}
+.ml20{margin-left:20px;}
+.ml30{margin-left:30px;}
+.ml40{margin-left:40px;}
+.ml50{margin-left:50px;}
+.ml60{margin-left:60px;}
+
+.pt0{padding-top:0;}
+.pt5{padding-top:5px;}
+.pt10{padding-top:10px;}
+.pt20{padding-top:20px;}
+.pt30{padding-top:30px;}
+.pt40{padding-top:40px;}
+.pt50{padding-top:50px;}
+.pt60{padding-top:60px;}
+
+.pb0{padding-bottom:0;}
+.pb5{padding-bottom:5px;}
+.pb10{padding-bottom:10px;}
+.pb20{padding-bottom:20px;}
+.pb30{padding-bottom:30px;}
+.pb40{padding-bottom:40px;}
+.pb50{padding-bottom:50px;}
+
+.pl0{padding-left:0;}
+.pl5{padding-left:5px;}
+.pl10{padding-left:10px;}
+.pl20{padding-left:20px;}
+.pl30{padding-left:30px;}
+.pl40{padding-left:40px;}
+.pl50{padding-left:50px;}
+
+.pr0{padding-right:0;}
+.pr5{padding-right:5px;}
+.pr10{padding-right:10px;}
+.pr20{padding-right:20px;}
+.pr30{padding-right:30px;}
+.pr40{padding-right:40px;}
+.pr50{padding-right:50px;}
+
+/* Bootstrapのガター幅を調整するための汎用CSS */
+.row-0{ margin-left:0px;  margin-right:0px}
+.row-0 >div{ padding-right:0px;  padding-left:0px}
+.row-10{ margin-left:-5px;  margin-right:-5px}
+.row-10 >div{ padding-right:5px;  padding-left:5px}
+.row-20{ margin-left:-10px;  margin-right:-10px}
+.row-20 >div{ padding-right:10px;  padding-left:10px}
+.row-30{ margin-left:-15px;  margin-right:-15px}
+.row-30 >div{ padding-right:15px;  padding-left:15px}
+.row-40{ margin-left:-20px;  margin-right:-20px}
+.row-40 >div{ padding-right:20px;  padding-left:20px}
+.row-50{ margin-left:-25px;  margin-right:-25px}
+.row-50 >div{ padding-right:25px;  padding-left:25px}

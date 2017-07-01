@@ -64,6 +64,7 @@ html,body{
 	margin:0;
 	padding:0;
 	background-color:#eeeeee;
+	color:#001c3d;
 }
 
 html{
@@ -73,7 +74,6 @@ html{
 
 body{
 	font-size:1.4em;
-	color:#fff;
 	font-family: Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
 	line-height: 18px;
 }
@@ -159,7 +159,6 @@ a:hover{
 	color:#001c3d;
 	background-color:#eeeeee;
 }
-
 
 
 
