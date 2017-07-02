@@ -1,9 +1,9 @@
 body.ureyu{
-	background: url(http://esctrax.com/interview/images/ureyu/img_main.jpg) right bottom/cover no-repeat fixed;
+	background: url(../images/ureyu/img_main.jpg) right bottom/cover no-repeat fixed;
 }
 @media screen and (max-width:768px) {
 	body.ureyu{
-		background: url(http://esctrax.com/interview/images/ureyu/img_main.jpg);
+		background: url(../images/ureyu/img_main.jpg);
 		background-position:0 0;
 		background-repeat: no-repeat;
 		background-attachment: scroll;
