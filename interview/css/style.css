@@ -180,3 +180,13 @@ h4{
 	line-height: 2em;
 	font-size: 120%;
 }
+
+#lang{
+	padding-top:30px;
+}
+
+/*------------- profile -----------*/
+#profile{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
