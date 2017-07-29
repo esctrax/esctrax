@@ -102,11 +102,10 @@ h4{
 }
 
 #intro{
-	padding:2em 15px 0 15px;;
+	padding:0 15px 0 15px;;
 }
 
 #intro p{
-	padding-top:1em;
 	padding-bottom:2em;
 	line-height: 1.5em;
 	font-size:150%;
@@ -171,22 +170,80 @@ h4{
 	color: #001c3d;
 	font-weight: bold;
 	font-size: 140%;
-	padding-top: 60px;
 	line-height: 2em;
 	font-style: italic;
+	padding-bottom: 40px;
 }
 #main dl dd {
-	padding-top: 40px;
 	line-height: 2em;
 	font-size: 120%;
+	padding-bottom: 40px;
 }
 
 #lang{
 	padding-top:30px;
 }
 
+
+#main .area-photo{
+	padding-bottom: 40px;
+}
+
+#main .area-photo-nobottom{
+	
+}
+#main .area-youtube{
+	padding-bottom: 40px;
+}
+
+#main .area-cd{
+	padding-bottom: 40px;
+}
+
+#main .area-cd .cd{
+	padding-bottom: 10px;
+}
+
+#main .area-cd .cd img{
+	padding-bottom: 10px;
+	filter: drop-shadow(2px 2px 4px #999);
+}
+
+#main .area-btn-dl{
+	padding-bottom: 40px;
+}
+
+#main .incimg {
+	padding: 0;
+}
+
+#main .title{
+	padding: 0 0 60px 0;
+}
+
 /*------------- profile -----------*/
 #profile{
 	padding-top: 30px;
 	padding-bottom: 30px;
+}
+
+#profile .artist-photo{
+	padding-bottom: 30px;
+}
+
+#profile .artist-txt img{
+	padding-bottom: 10px;
+}
+#profile .artist-txt strong{
+	font-size: 120%;
+}
+
+#profile .artist-txt strong span{
+	font-size: 80%;
+}
+#profile .artist-youtube{
+	padding-bottom: 30px;
+}
+#profile .artist-bandcamp{
+	padding-bottom:30px;
 }
