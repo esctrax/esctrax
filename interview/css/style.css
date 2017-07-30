@@ -1,10 +1,22 @@
 body.ureyu{
 	background: url(../images/ureyu/img_main.jpg) right bottom/cover no-repeat fixed;
 }
+body.fupuho{
+	background: url(../images/fupuho/img_main.jpg) left top/cover no-repeat fixed;
+}
+
 @media screen and (max-width:768px) {
 	body.ureyu{
 		background: url(../images/ureyu/img_main.jpg);
 		background-position:0 0;
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-size: contain;
+		background-color: #001c3d;
+	}
+	body.fupuho{
+		background: url(../images/fupuho/img_main.jpg);
+		background-position:left top;
 		background-repeat: no-repeat;
 		background-attachment: scroll;
 		background-size: contain;
@@ -99,10 +111,11 @@ h4{
 
 #article {
 	background: #ffffff;
+	padding-top:40px;
 }
 
 #intro{
-	padding:0 15px 0 15px;;
+	padding:0 15px 0 15px;
 }
 
 #intro p{
@@ -180,8 +193,14 @@ h4{
 	padding-bottom: 40px;
 }
 
+body.fupuho #main dl dd{
+	line-height: 2em;
+	font-size: 120%;
+	padding-bottom: 20px;
+}
+
 #lang{
-	padding-top:30px;
+	padding-bottom:30px;
 }
 
 
@@ -190,7 +209,7 @@ h4{
 }
 
 #main .area-photo-nobottom{
-	
+	padding-bottom: 0px;
 }
 #main .area-youtube{
 	padding-bottom: 40px;
@@ -221,16 +240,21 @@ h4{
 	padding: 0 0 60px 0;
 }
 
+.c_ebi{color:#AB1000;}
+.c_ca5{color:#089600;}
+.c_sue{color:#0029AD;}
+
 /*------------- profile -----------*/
 #profile{
 	padding-top: 30px;
-	padding-bottom: 30px;
 }
 
 #profile .artist-photo{
 	padding-bottom: 30px;
 }
-
+#profile .artist-txt{
+	padding-bottom: 30px;
+}
 #profile .artist-txt img{
 	padding-bottom: 10px;
 }
