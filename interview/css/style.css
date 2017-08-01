@@ -240,6 +240,10 @@ body.fupuho #main dl dd{
 	padding: 0 0 60px 0;
 }
 
+#main .title-nobottom{
+	padding: 0;
+}
+
 .c_ebi{color:#AB1000;}
 .c_ca5{color:#089600;}
 .c_sue{color:#0029AD;}
