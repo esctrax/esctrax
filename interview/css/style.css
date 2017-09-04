@@ -5,18 +5,31 @@ body.fupuho{
 	background: url(../images/fupuho/img_main.jpg) left top/cover no-repeat fixed;
 }
 
+body.uraboroshi{
+	background: url(../images/uraboroshi/img_main.jpg) left bottom/cover no-repeat fixed;
+}
+
+
 @media screen and (max-width:768px) {
 	body.ureyu{
 		background: url(../images/ureyu/img_main.jpg);
-		background-position:0 0;
+		background-position:left top;
 		background-repeat: no-repeat;
 		background-attachment: scroll;
 		background-size: contain;
-		background-color: #001c3d;
+		background-color: #fff;
 	}
 	body.fupuho{
 		background: url(../images/fupuho/img_main.jpg);
-		background-position:left top;
+		background-position:left 1.5em;
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-size: contain;
+		background-color: #fff;
+	}
+	body.uraboroshi{
+		background: url(../images/uraboroshi/img_main.jpg);
+		background-position:left 3em;
 		background-repeat: no-repeat;
 		background-attachment: scroll;
 		background-size: contain;
@@ -38,11 +51,11 @@ h1 span {
 
 @media screen and (max-width:768px) {
 	h1 {
-		color: #fff;
-		text-shadow: 2px 2px 4px #000;
+		color: #001c3d;
+		text-shadow: 2px 0px 0px #fff, 0px 2px 0px #fff, -2px 0px 0px #fff, 0px -2px 0px #fff;
 		font-size: 200%;
 		font-weight: bold;
-		padding: 0;
+		padding-top: 130px;
 	}
 	h1 span {
 		font-size: 80%;
@@ -85,29 +98,41 @@ h4{
 	#main {
 		margin-top: 0;
 	}
+	
 }
 
 
-	nav#breadcrumbs ol {
-		margin-top: 10px;
-		padding-left: 0;
-	}
+nav#breadcrumbs ol {
+	margin-top: 10px;
+	padding-left: 0;
+}
+nav#breadcrumbs ol li {
+	display: inline;
+	list-style-type: none;
+	text-shadow: 2px 2px 4px #000;
+}
+nav#breadcrumbs ol li:before {
+	content: " > ";
+}
+nav#breadcrumbs ol li:first-child:before {
+	content: "";
+}
+nav#breadcrumbs a {
+	color: #fff;
+	font-weight: normal;
+}
+
+@media screen and (max-width:768px) {
 	nav#breadcrumbs ol li {
-		display: inline;
-		list-style-type: none;
-		text-shadow: 2px 2px 4px #000;
-	}
-	nav#breadcrumbs ol li:before {
-		content: " > ";
-	}
-	nav#breadcrumbs ol li:first-child:before {
-		content: "";
+		color: #001c3d;
+		text-shadow: 2px 0px 0px #fff, 0px 2px 0px #fff, -2px 0px 0px #fff, 0px -2px 0px #fff;
 	}
 	nav#breadcrumbs a {
-		color: #fff;
+		color: #001c3d;
 		font-weight: normal;
+		text-decoration: underline;
 	}
-
+}
 
 #article {
 	background: #ffffff;
