@@ -9,6 +9,10 @@ body.uraboroshi{
 	background: url(../images/uraboroshi/img_main.jpg) left bottom/cover no-repeat fixed;
 }
 
+body.saitone{
+	background: url(../images/saitone/img_main.jpg) left top/cover no-repeat fixed;
+}
+
 
 @media screen and (max-width:768px) {
 	body.ureyu{
@@ -29,6 +33,14 @@ body.uraboroshi{
 	}
 	body.uraboroshi{
 		background: url(../images/uraboroshi/img_main.jpg);
+		background-position:left 3em;
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-size: contain;
+		background-color: #fff;
+	}
+	body.saitone{
+		background: url(../images/saitone/img_main.jpg);
 		background-position:left 3em;
 		background-repeat: no-repeat;
 		background-attachment: scroll;
