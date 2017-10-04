@@ -147,7 +147,7 @@ nav#breadcrumbs a {
 }
 
 #article {
-	background: #ffffff;
+	background: #FDFDFD;
 	padding-top:40px;
 }
 
@@ -204,6 +204,14 @@ nav#breadcrumbs a {
 	width: auto;
 	z-index: 100000;
 }
+
+.otherinterview{
+	text-align: center;
+}
+.otherinterview ul li{
+	display: inline-block;
+}
+
 #credit {
 	text-align: center;
 	padding: 1em;
@@ -315,4 +323,3 @@ body.fupuho #main dl dd{
 #profile .artist-bandcamp{
 	padding-bottom:30px;
 }
-
